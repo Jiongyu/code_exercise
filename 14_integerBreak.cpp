@@ -51,6 +51,7 @@ int main(int argc, char const *argv[])
 {
     int number = 20;
     Solution demo;
+    std::cout << "正整数：20\n";
     std::cout << "动态规划求解：\n";
     std::cout << demo.integerBreak(number) << std::endl;    
     std::cout << "贪心求解：\n";
