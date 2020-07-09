@@ -94,8 +94,6 @@ void postOrderTraverse(struct TreeNode *tree)
 
 }
 
-
-
 int main(int argc, char const *argv[])
 {
     vector<int>pre = {1,2,4,7,3,5,6,8};

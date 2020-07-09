@@ -49,7 +49,7 @@ private:
                 return true;
             
             // 迭代坐标位置左上右下四个位置
-            bool condition =   isPath(matrix, flag, (str + 1), x, y - 1, rows, cols) ||
+            bool condition =    isPath(matrix, flag, (str + 1), x, y - 1, rows, cols) ||
                                 isPath(matrix, flag, (str + 1), x - 1, y, rows, cols) ||
                                 isPath(matrix, flag, (str + 1), x, y + 1, rows, cols) ||
                                 isPath(matrix, flag, (str + 1), x + 1, y, rows, cols) ;

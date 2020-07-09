@@ -34,6 +34,7 @@ public:
         {
             if(last->next != NULL && last->val == last->next->val)
             {
+                // 寻找到最后一个重复
                 while (last->next != NULL && last->val == last->next->val)
                 {
                     last = last->next;

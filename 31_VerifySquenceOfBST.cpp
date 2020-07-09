@@ -33,7 +33,7 @@ public:
         }
 
         // 右子节点大于根节点
-        for (; index < end; index ++ ){
+        for (; index < end; index ++){
             if(sequence[index] > sequence[end])
                 right_sq.push_back(sequence[index]);
             else
@@ -42,7 +42,7 @@ public:
         
         // 判断左子树是否为后序遍历
         bool left = true;
-        if(!left_sq.empty())   left = VerifySquenceOfBST(left_sq);
+        if(!left_sq.empty()) left = VerifySquenceOfBST(left_sq);
         
         // 判断右子树是否为后序遍历
         bool right = true;

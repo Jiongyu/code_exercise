@@ -13,6 +13,7 @@
  */
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 struct TreeNode {
@@ -22,6 +23,7 @@ struct TreeNode {
 	TreeNode(int x) :
 			val(x), left(NULL), right(NULL) {
 	}
+    
 };
 
 class Solution {
