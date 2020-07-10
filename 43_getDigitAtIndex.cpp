@@ -47,7 +47,7 @@ public:
         //确定所求数位在 num 的哪一数位
         int number_position  = ( index - 1 ) % digit;
         
-        count = 9 * (digit - 1) * (start - 1) + number * digit + number_position;
+        count = 9 * (digit - 1) * (start / 10) + number * digit + number_position;
         return count;
     }
 
